@@ -12,7 +12,7 @@ function getFormvalue(e) {
 
 	fname.value.trim();
 	lname.value.trim();
-	alert(fname.value+"-"+lname.value);
+	alert(fname.value+lname.value);
 	fname.value=""
 	lname.value=""
 	
