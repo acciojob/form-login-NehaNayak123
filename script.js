@@ -7,8 +7,8 @@ function getFormvalue(e) {
 	e.preventDefault();
     //Write your code here
 
-	if(fname.value== ""){alert("fill all fields")}
-	if(lname.value== ""){alert("fill all fields")}
+	if(fname.value== ""){alert("fill all fields") return}
+	if(lname.value== ""){alert("fill all fields") return}
 
 	fname.value.trim();
 	lname.value.trim();
